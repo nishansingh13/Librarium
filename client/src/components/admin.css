@@ -1,0 +1,30 @@
+.details{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 1%;
+    margin: 1rem;
+}
+.details-div{
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.img-vala-div{
+    background-size: cover;
+    margin-right: 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+.admin-search-book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mytable{
+    width: 100%;
+    margin-top: 1rem;
+}

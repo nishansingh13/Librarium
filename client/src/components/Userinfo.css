@@ -1,0 +1,49 @@
+.user-info {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .user-table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .user-table th {
+    background-color: #f5f7f9;
+    font-size: 1.2rem;
+  }
+  
+  .user-table tr {
+    background-color: #e8eaee;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f0f1f5;
+  }
+  
+  .user-table tr:hover {
+    background-color: #d7e0eb;
+  }
+  
+  .loading,
+  .error {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 2rem;
+  }
+  
